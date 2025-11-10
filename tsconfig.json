@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "sourceMap": true,
+    "lib" : ["esnext", "dom"],
+    "outDir": "build",
+    "baseUrl": "./src",
+    "incremental": true,
+  },
+  "exclude": ["node_modules", "build"]
+}
